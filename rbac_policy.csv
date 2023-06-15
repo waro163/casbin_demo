@@ -1,0 +1,16 @@
+p, alice, data1, get
+p, bob, data2, post
+
+p, data1_admin, data1, *
+p, data2_admin, data2, *
+
+p, read_admin, *, get
+p, write_admin, *, post
+
+p, admin, *, *
+
+g, ham, data1_admin
+g, jack, data2_admin
+g, tom, read_admin
+g, sam, write_admin
+g, toby, admin
